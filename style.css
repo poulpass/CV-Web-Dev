@@ -68,12 +68,20 @@ a:hover{
 	color: #c95057;
 }
 
+.bigbubule{
+	width: 300px;
+	padding: -10px;	
+	text-align: left;
+	padding: -100%;
+}
+
 .divContent {
     width: 94%;
     height: 0px;
     margin-left: 2%;
     padding: 15px;
     margin-top: -10px;
+    margin-bottom: 50px;
     background-color: #efddb7;
     box-shadow: 2px 2px;
     z-index: 3;
@@ -186,6 +194,8 @@ a {
 	width: 75px;
 	margin-top: -5px;
 }
+
+
 
 .carou {
 

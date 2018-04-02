@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 
 	//$("h3").delay(800).fadeIn (500);
-	$(".divContent ").delay(800).animate({height: "75%"},500);
+	$(".divContent ").delay(800).animate({height: "80%"},500);
 
 	$("h3, .coeur, .skill, p,  li, tr,.hidden").delay(800).fadeIn (500);
 
