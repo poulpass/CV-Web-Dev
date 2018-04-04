@@ -21,7 +21,6 @@ body {
 }
 
 
-
 .case {
     display: inline-flex;
     flex-flow: row wrap;
@@ -75,6 +74,10 @@ a:hover{
 	padding: -100%;
 }
 
+.nomarges{
+    padding-right: 0px;
+}
+
 .divContent {
     width: 94%;
     height: 0px;
@@ -86,7 +89,6 @@ a:hover{
     box-shadow: 2px 2px;
     z-index: 3;
 }
-
 
 
 .pastille {
@@ -195,7 +197,15 @@ a {
 	margin-top: -5px;
 }
 
+.carousel-control-prev, .carousel-control-next{
+    background-color: #e15342;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    margin-top: 20%;
+    border-radius: 100%;
 
+}
 
 .carou {
 
@@ -232,6 +242,11 @@ h3,
 }
 
 @media (max-width: 700px) {
+
+    .nomarges{
+        padding: 0px;
+    }
+
     #page {
         flex-direction: column;
     }
