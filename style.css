@@ -6,12 +6,20 @@ body {
     background-color: #d3c096
 }
 
+.icon_skill1{
+    margin: 7px;
+}
+
 #global {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
     margin: auto;
+}
+
+.skill_max{
+    max-width: 400px;
 }
 
 #side {
@@ -38,7 +46,7 @@ body {
 
 .subtitle {
     background-color: #e15342;
-    height: 30px;
+    height: 35px;
     width: 0%;
     display: flex;
     flex-direction: row;
@@ -158,16 +166,6 @@ a:hover{
     box-shadow: 5px 5px;
 }
 
-.skill {
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
-    background-color: blue;
-    transform: rotate(45deg);
-    padding-top: 2px;
-    margin: 10px;
-    box-shadow: 3px 2px;
-}
 
 .innerSkill {
     transform: rotate(-45deg);
